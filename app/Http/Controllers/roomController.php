@@ -30,6 +30,7 @@ class roomController extends Controller
     public function storeComment(Request $request)
     {
         try{
+            $chats = Room::all();
             $id = $request->get('id', false);
             $id_channel = $request->channel;
             $att['user_name']=$request->user_name;
@@ -40,7 +41,8 @@ class roomController extends Controller
             return redirect()->route('chat_room2', ['id'=>$id_channel]);
         }
         catch (\Exception $e) {
-            return redirect()->route('welcome')->withErrors($e->getMessage());
+           return view('chat_list', compact('e','chats'));
+            $e->getMessage();
         }
     }
 
