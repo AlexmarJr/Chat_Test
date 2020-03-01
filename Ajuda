@@ -5,7 +5,8 @@
 4- abra o projeto em um editor de texto(EX: VS Code)
 5- abra a pasta .env ou .env.example, e nas opções abaixo de "DB_CONNECTION=mysql", digite o host "127.0.0.1" e o port "3306",
 e as outras opções preencha com as informações do banco que voçe criou no passo 3
-6- Abra o terminal no editor de texto(Ou na PATH do cmd) e digite "php artisan serve", ele ira te da o endereço para o navegador.
+6- Abra o terminal e Rode o codigo "php artisan migrate"
+7- Abra o terminal no editor de texto(Ou na PATH do cmd) e digite "php artisan serve", ele ira te da o endereço para o navegador.
 
 ===Funcionalidade do sistema===
 
