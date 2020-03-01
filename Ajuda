@@ -1,0 +1,20 @@
+1 - Caso nao tenha o laravel instalado na maquina Siga os passo em https://laravel.com/docs/6.x
+
+2- depois de instalado, salve o projeto na pasta do XAMP.
+3- Crie um banco de dados no PHP my admin no XAMP.
+4- abra o projeto em um editor de texto(EX: VS Code)
+5- abra a pasta .env ou .env.example, e nas opções abaixo de "DB_CONNECTION=mysql", digite o host "127.0.0.1" e o port "3306",
+e as outras opções preencha com as informações do banco que voçe criou no passo 3
+6- Abra o terminal no editor de texto(Ou na PATH do cmd) e digite "php artisan serve", ele ira te da o endereço para o navegador.
+
+===Funcionalidade do sistema===
+
+1- Crie a sua sala. Todas opções de criar sala devem ser preenchidas.
+2- Apos criar a sala, vá em "Lista de Chats", la avera todos os chats ja criados.
+3- no canto superior direito voce vera o nome atual, voce pode mudar a qualquer hora.
+4- quando clicar em entrar voce vera a sala do chat, o chat não é em tempo real, e tem que ser atualizado para ver novas mensagens.
+5- cada chat é individual para cada sala.
+6- para testar com 2 usuarios ao mesmo tempo, abra uma janela anonima e entre com um nome diferente
+7- ao criar a sala voce teve que digitar sua senha, na pagina inicial em "Procurar sala" digite o nome da sala,
+o nome que voce seja entrar e a senha da sala, caso acerte as credenciais, voce sera o admnistrador da sala, podendo excluir 
+mensagens dos outros usuarios.
