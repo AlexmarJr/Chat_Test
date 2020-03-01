@@ -96,7 +96,7 @@
         <div class="col-sm" style="background-color: White; border: 5px solid blue;border-style: solid; border-radius: 25px;margin-left:15px">
         <form action="{{route('chatting_room')}}" method="post" autocomplete="off" enctype="multipart/form-data">
         @csrf
-            <h1 style='text-align: center;'>Entrar em uma Sala</h1>
+            <h1 style='text-align: center;'>Procurar uma Sala</h1>
             <hr>
             <label>Nome da Sala</label>
             <input type="text" name="name_room" class="form-control" placeholder="Ex: TV-Animações" aria-label="Username" aria-describedby="basic-addon1" required>
