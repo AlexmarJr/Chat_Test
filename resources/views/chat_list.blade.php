@@ -40,6 +40,11 @@
   @endif
 </nav>
 
+@if(isset($e))
+<h4> {{$e}}</h4>
+<h3 style="border: 5px solid red;border-style: solid; border-radius: 25px;width: 55%;margin-left: 25px">  ERROR: Entre com um nome no canto superior direito para comentar!</h3>
+@endif
+
 <div class="container float-left" style="background-color: white;margin-top: 20px;margin-left: 25px;border-radius: 2%">
             <table class="table">
                 <tr>
